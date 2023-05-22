@@ -21,3 +21,9 @@ def Machine_Learning(request):
 
 def communication(request):
     return render(request, 'Folder/communication.html')
+
+def about(request):
+    return render(request,'about.html')
+
+def contact(request):
+    return render(request,'contact.html')

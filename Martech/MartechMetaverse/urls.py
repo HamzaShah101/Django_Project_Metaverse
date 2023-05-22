@@ -4,7 +4,8 @@ from MartechMetaverse import views
 
 urlpatterns = [
     path("",views.index,name="home"),
-    path("news",views.news,name="news"),
+    path("about",views.about,name="about"),
+    path("contact",views.contact,name="contact"),
     path("technology",views.technology,name="technology"),
     path("hr",views.hr,name="hr"),
     path("Marketing Technology",views.Marketing_Technology,name="marketing_technology"),
